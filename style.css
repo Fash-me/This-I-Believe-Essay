@@ -1,0 +1,77 @@
+body {
+    background-image: url("/Users/apple/projects/ENGmusicP/images/HD-wallpaper-the-pianist-dancers-art-bass-red-dress-music-painting-beautiful-piano-thumbnail.jpeg");
+    background-attachment: fixed;
+    padding: 200px 0px;
+}
+
+.H-container,
+.B-container,
+.selection-para,
+.menu,
+.welcome {
+    display: flex;
+    justify-content: center;
+   
+}
+
+h1 {
+    font-family: fantasy;
+    color:rgb(10, 10, 10);
+    background-color:rgb(127, 182, 216);
+    padding: 20px;
+
+}
+
+p {
+    font-family: Apple Chancery, cursive;
+    background-color: rgb(127, 182, 216);
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.selection {
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(242, 233, 233);
+    
+}
+
+button {
+    font-family: Apple Chancery, cursive;
+    background-color: black;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(127, 182, 216);
+    cursor: pointer;
+}
+
+button:hover {
+    border: 3px solid black;
+    background-color: rgb(127, 182, 216);
+    color:black;
+}
+
+.footer {
+    font-family: Apple Chancery, cursive;
+    font-size: 20px;
+    position: fixed;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: rgb(242, 233, 233);
+
+}
